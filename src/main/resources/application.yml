@@ -25,7 +25,7 @@ azure:
 keycloak:
   realm: ZeusFit
   resource: spring-boot-zeusfit
-  auth-server-url: https://keycloakzeusfit.azurewebsites.net/auth
+  auth-server-url: https://keycloakzeusfit.azurewebsites.net
   ssl-required: external
   public-client: true
   principal-attribute: preferred_username
