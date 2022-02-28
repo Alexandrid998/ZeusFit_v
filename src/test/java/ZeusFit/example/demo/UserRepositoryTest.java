@@ -199,7 +199,7 @@ public class UserRepositoryTest {
        KM2.setNum_posti_disponibili(15);
        KM2.setCosto(10);
 
-       
+       /*
        Prenotazione P1 = new Prenotazione();
        P1.setUtente(user);
        P1.setOra("14:00:00");
