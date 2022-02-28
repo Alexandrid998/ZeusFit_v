@@ -1,4 +1,4 @@
-/*package ZeusFit.example.demo;
+package ZeusFit.example.demo;
 
 import ZeusFit.model.*;
 import ZeusFit.repository.*;
@@ -119,7 +119,7 @@ public class UserRepositoryTest {
        */
 
 
-       /*Corso PL = new Corso();
+       Corso PL = new Corso();
        PL.setNome("Powerlifting");
        PL.setDescrizione("Corso in cui vi saranno insegnate le tre alzate di forza del powelifting: Squat, Panca e Stacco");
        PL.setUrlimm("pl.jpeg");
@@ -199,7 +199,7 @@ public class UserRepositoryTest {
        KM2.setNum_posti_disponibili(15);
        KM2.setCosto(10);
 
-       /*
+       
        Prenotazione P1 = new Prenotazione();
        P1.setUtente(user);
        P1.setOra("14:00:00");
@@ -216,7 +216,7 @@ public class UserRepositoryTest {
        A1.setData(new Date(121,9,22));
         */
 
-      /* Ruolo savedRuolo = repor.save(admin);
+       Ruolo savedRuolo = repor.save(admin);
        Ruolo savedRuolo1 = repor.save(utente);
        /*
        Utente savedAdmin = repo.save(user1);
@@ -224,7 +224,7 @@ public class UserRepositoryTest {
        Utente saved1 = repo.save(user2);
        Utente saved2 = repo.save(user3);
        */
-       /*Corso savedCorso = repoc.save(PL);
+       Corso savedCorso = repoc.save(PL);
        Corso savedCorso2 = repoc.save(ZUMBA);
        Corso savedCorso3 = repoc.save(Krav);
 
@@ -239,7 +239,7 @@ public class UserRepositoryTest {
        //Prenotazione savedPrenotazione = repop.save(P1);
 
 
-      /*Ruolo existRuolo = entityManager.find(Ruolo.class,savedRuolo.getId());
+      Ruolo existRuolo = entityManager.find(Ruolo.class,savedRuolo.getId());
       Ruolo existRuolo1 = entityManager.find(Ruolo.class,savedRuolo1.getId());
       //Utente existAdmin = entityManager.find(Utente.class,savedAdmin.getId());
       //Utente existUser = entityManager.find(Utente.class,savedUser.getId());
@@ -263,4 +263,4 @@ public class UserRepositoryTest {
 
 
    }
-}*/
+}
