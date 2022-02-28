@@ -23,7 +23,7 @@ azure:
     tenant-id: 2fcfe26a-bb62-46b0-b1e3-28f9da0c45fd
 
 keycloak:
-  realm: zeusfitZF
+  realm: ZeusFit
   resource: spring-boot-zeusfit
   auth-server-url: https://keycloakzeusfit.azurewebsites.net/auth
   ssl-required: external
